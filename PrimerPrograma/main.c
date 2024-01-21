@@ -23,7 +23,7 @@ int main()
     m = sizeof(vEdades[0]);
     longitud = n/m;
 
-    for (i = 0; i < (longitud); i++){
+    for (i = 0; i < longitud; i++){
         printf("La edad de la posicion %d es: %d \n", i+1, vEdades[i]);
     }
 
