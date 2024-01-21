@@ -4,10 +4,19 @@
 int main()
 {
     int entero = 5;
-    double decimal = 10.2;
-    char letra = 'A';
+    int *pentero = &entero;
 
-    printf("%d",entero);
+    double decimal = 10.2;
+    double *pdecimal = &decimal;
+
+    char letra = 'A';
+    char *pletra = &letra;
+
+    printf("%p \n", pentero);
+    printf("%d \n", *pentero);
+    printf("%d \n", *&entero);
+    printf("%p \n", pdecimal);
+    printf("%p \n", pletra);
 
     return 0;
 }

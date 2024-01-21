@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1705835236 source:c:\git\udemy\c\direccionesmemoria\main.c
+	<stdio.h>
+	<stdlib.h>
+
